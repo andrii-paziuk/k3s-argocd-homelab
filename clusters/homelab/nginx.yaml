@@ -1,0 +1,21 @@
+
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: nginx-web
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/andrii-paziuk/k3s-gitops-homelab.git
+    targetRevision: main
+    path: apps/nginx-web
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: nginx-web
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true

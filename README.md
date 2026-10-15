@@ -5,5 +5,5 @@ Production-inspired Kubernetes homelab built on k3s, using Argo CD for GitOps, G
 
 ### Argo CD Dashboard
 
-![Argo CD Dashboard](docs/images/argocd-photo.png)
-![Argo CD Dashboard](docs/images/argocd-photo_2.png)
+![Argo CD Dashboard](docs/images/argocd_photo.png)
+![Argo CD Dashboard](docs/images/argocd_photo_2.png)

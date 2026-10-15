@@ -62,16 +62,6 @@ kubectl get pods -n nginx-web
 kubectl get services -n nginx-web
 ```
 
-## Screenshots
-
-### Argo CD Application
-
-![Argo CD Application](docs/images/argocd-dashboard.png)
-
-### Kubernetes Deployment
-
-![Kubernetes Deployment](docs/images/nginx-deployment.png)
-
 ## Planned Improvements
 
 - CI pipeline with GitHub Actions

@@ -7,7 +7,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/andrii-paziuk/k3s-gitops-homelab.git
+    repoURL: https://github.com/andrii-paziuk/k3s-argocd-homelab.git
     targetRevision: main
     path: apps/nginx-web
   destination:
